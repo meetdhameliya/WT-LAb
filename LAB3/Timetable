@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMETABLE</title>
+</head>
+<body>
+    <Table border="1">
+
+        <tr>
+            <td>HRS</td>
+            <td colspan="4">Mon</td>
+            <td colspan="4">Tue</td>
+            <td colspan="4">Wed</td>
+            <td colspan="4">Thu</td>
+            <td colspan="4">Fri</td>
+            <td colspan="4">Sat</td>
+        </tr>
+        <tr>
+            <td>9.10 to 10.10</td>
+            <td colspan="4">com</td>
+            <td colspan="4">com</td>
+            <td colspan="4">com</td>
+            <td colspan="4">com</td>
+            <td colspan="4">com</td>
+            <td rowspan="2">A2-SGP</td>
+            <td rowspan="2">B2-SGP</td>
+            <td rowspan="2">c2-com</td>
+            <td rowspan="2">d2-com</td>
+        </tr>
+        <tr>
+            <td>9.10 to 10.10</td>
+            <td colspan="4">DBMS</td>
+            <td colspan="4">SNT</td>
+            <td colspan="4">SNT</td>
+            <td colspan="4">SNT</td>
+            <td colspan="4">SNT</td>
+          
+            
+        </tr>
+        <tr>
+            <td>11:10 to 12:10</td>
+            <td colspan="24" align="center">BREAK</td>
+            
+        </tr>
+        <tr>
+            <td>12:10 to 01:10</td>
+            <td rowspan="2">a2 com</td>
+            <td rowspan="2">b2 com</td>
+            <td rowspan="2">c2 dsa</td>
+            <td rowspan="2">d2 dbms</td>
+            <td rowspan="2">a2 dbms</td>
+            <td rowspan="2">b2 dsa</td>
+            <td rowspan="2">c2 wt</td>
+            <td rowspan="2">d2 wt</td>
+            <td rowspan="2">a2 </td>
+            <td rowspan="2">b2 dbms</td>
+            <td rowspan="2">c2 sgp</td>
+            <td rowspan="2">d2 sgp</td>
+            <td rowspan="2">a2 wt</td>
+            <td rowspan="2">b2 wt</td>
+            <td rowspan="2">c2 </td>
+            <td rowspan="2">d2 dsa</td>
+            <td rowspan="2">a2 dsa</td>
+            <td rowspan="2">b2</td>
+            <td rowspan="2">c2 dbms</td>
+            <td rowspan="2">d2</td>
+            <td rowspan="2">a2 sgp</td>
+            <td rowspan="2">b2 sgp</td>
+            <td rowspan="2">c2 com</td>
+            <td rowspan="2">d2 com</td>
+        </tr>
+        <tr>
+            <td>01:10 to 02:10</td>
+            
+        </tr>
+        <tr>
+            <td>02:10 to 02:20</td>
+            <td colspan="24" align="center">BREAK</td>
+           
+        </tr>
+        <tr>
+            <td>02:20 to 03:20</td>
+            <td colspan="4">hs</td>
+            <td colspan="4">DSA</td>
+            <td colspan="4">DSA</td>
+            <td colspan="4">DSA</td>
+            <td colspan="4">dbms</td>
+            <td colspan="4"></td>
+            
+        </tr>
+        <tr>
+            <td>03:20 to 04:20</td>
+            <td colspan="4">hs</td>
+            <td colspan="4"></td>
+            <td colspan="4">dbms</td>
+            <td colspan="4">dbms</td>
+            <td colspan="4">DSA</td>
+            <td colspan="4"></td>
+           
+        </tr>
+    </Table>
+</body>
+</html>
