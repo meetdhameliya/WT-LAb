@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+.container{
+    width:100%;
+    text-align: center;
+    padding: 1px;
+    background-color: whitesmoke;
+}
+.container1{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+.hd{
+    width: 2%;
+    display: inline-block;
+    float: left;
+    visibility: hidden;
+}
+.box{
+    width: 32%;
+    height:250px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+.box1{
+    width: 20%;
+    height:80px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    color: transparent;
+}
