@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Animation</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .bg {
+          /* The image used */
+          background-image: url("https://cdn.pixabay.com/photo/2020/02/06/18/43/water-background-4825172_1280.jpg");
+          position: sticky;
+          background-size: cover;
+        
+          /* Full height */
+          height: 88%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        div {
+        position: relative;
+        animation: mymove 5s infinite;
+        animation-direction: alternate;
+        }
+
+        #div1 {animation-timing-function: linear;}
+
+        @keyframes mymove {
+            from {left: 3px;}
+            to {left: 1050px;}
+        }
+
+        </style>
+</head>
+
+<body>
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">CSS_Animation</h2>
+    <div id="div1"><img src="boat.png" alt="CSS_Animation"></div>
+    <div class="bg"></div>
+    
+    
+</body>
+
+</html>
